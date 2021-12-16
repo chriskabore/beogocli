@@ -9,5 +9,32 @@
         android:id="@+id/clinicareSplashFragment"
         android:name="com.beogotech.apps.android.clinicare.ClinicareSplashFragment"
         android:label="fragment_clinicare_splash"
-        tools:layout="@layout/fragment_clinicare_splash" />
+        tools:layout="@layout/fragment_clinicare_splash" >
+        <action
+            android:id="@+id/action_clinicareSplashFragment_to_viewPagerFragment"
+            app:destination="@id/viewPagerFragment"
+            app:popUpTo="@id/clinicareSplashFragment"
+            app:popUpToInclusive="true" />
+        <action
+            android:id="@+id/action_clinicareSplashFragment_to_homeFragment"
+            app:destination="@id/homeFragment"
+            app:popUpTo="@id/clinicareSplashFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/viewPagerFragment"
+        android:name="com.beogotech.apps.android.clinicare.onboarding.ViewPagerFragment"
+        android:label="fragment_view_pager"
+        tools:layout="@layout/fragment_view_pager" >
+        <action
+            android:id="@+id/action_viewPagerFragment_to_homeFragment"
+            app:destination="@id/homeFragment"
+            app:popUpTo="@id/viewPagerFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.beogotech.apps.android.clinicare.onboarding.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" />
 </navigation>

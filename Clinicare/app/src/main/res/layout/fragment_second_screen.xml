@@ -12,7 +12,6 @@
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:layout_marginBottom="21dp"
-        android:src="@drawable/Find_Medical_Check_up_center"
         app:layout_constraintBottom_toTopOf="@+id/secondScreenTitle"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -43,7 +42,7 @@
         app:layout_constraintTop_toBottomOf="@+id/secondScreenTitle" />
 
     <TextView
-        android:id="@+id/next"
+        android:id="@+id/next2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="38dp"
