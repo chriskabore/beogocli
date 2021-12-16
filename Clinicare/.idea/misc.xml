@@ -6,6 +6,8 @@
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.1381340579710145" />
         <entry key="app/src/main/res/layout/fragment_clinicare_splash.xml" value="0.1" />
         <entry key="app/src/main/res/layout/fragment_first_screen.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/fragment_second_screen.xml" value="0.1322463768115942" />
+        <entry key="app/src/main/res/layout/fragment_third_screen.xml" value="0.12833675564681724" />
         <entry key="app/src/main/res/layout/fragment_view_pager.xml" value="0.1381340579710145" />
       </map>
     </option>
