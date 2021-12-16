@@ -7,4 +7,14 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <!-- Clinicare colors -->
+    <color name="clinicare_pink">#F25E7A</color>
+    <color name="clinicare_dark_pink">#BF4B60</color>
+    <color name="clinicare_dark_blue">#2D5273</color>
+    <color name="clinicare_grey">#48718C</color>
+    <color name="clinicare_grey_olive">#A0D3D9</color>
+    <color name="clinicare_cyan">#11BFBF</color>
+    <color name="clinicare_black">#212121</color>
+    <color name="clinicare_light_grey">#757575</color>
+
 </resources>
